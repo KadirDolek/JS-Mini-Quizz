@@ -2,3 +2,9 @@ p{
     color: rgb(193, 193, 97);
     display: flex;
 }
+#para {
+    color: burlywood;
+    background-color: darkgoldenrod;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
