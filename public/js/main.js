@@ -20,6 +20,7 @@ let reponse7 =["Attentat"]
 let reponse8 =["Staline"]
 let reponse9 =["Russie"]
 let reponse10 =["Berlin"]
+total = 0
 
 console.log("Bonjour, le test qui va suivre sera composé de 20 questions.")
 
@@ -28,49 +29,61 @@ console.log("Bonjour, le test qui va suivre sera composé de 20 questions.")
         console.log("Mauvaise réponse!")
         if (user==reponse1)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions2)
-    while (user!=reponse2)
+        if (user!=reponse2)
         console.log("Mauvaise réponse!")
         if (user==reponse2)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions3)
-    while (user!=reponse3)
+        if (user!=reponse3)
         console.log("Mauvaise réponse!")
         if (user==reponse3)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions4)
-    while (user!=reponse4)
+        if (user!=reponse4)
         console.log("Mauvaise réponse!")
         if (user==reponse4)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions5)
-    while (user!=reponse5)
+        if (user!=reponse5)
         console.log("Mauvaise réponse!")
         if (user==reponse5)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions6)
-    while (user!=reponse6)
+        if (user!=reponse6)
         console.log("Mauvaise réponse!")
         if (user==reponse6)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions7)
-    while (user!=reponse7)
+        if (user!=reponse7)
         console.log("Mauvaise réponse!")
         if (user==reponse7)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions8)
-    while (user!=reponse8)
+        if (user!=reponse8)
         console.log("Mauvaise réponse!")
         if (user==reponse8)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions9)
-    while (user!=reponse9)
+        if (user!=reponse9)
         console.log("Mauvaise réponse!")
         if (user==reponse9)
             console.log("Bonne réponse!")
+        total += 1
     var user = prompt(questions10)
-    while (user!=reponse10)
+        if (user!=reponse10)
         console.log("Mauvaise réponse!")
         if (user==reponse10)
             console.log("Bonne réponse!")
+        total += 1
     
+
+    total = (1*(user==reponse))
