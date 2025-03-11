@@ -21,13 +21,10 @@ let reponse8 =["Staline"]
 let reponse9 =["Russie"]
 let reponse10 =["Berlin"]
 
-let x = pr
-
-
 console.log("Bonjour, le test qui va suivre sera composé de 20 questions.")
 
-prompt(questions1)
-
-
-
-
+    let user = prompt(questions1)
+    while (user!=reponse1)
+        console.log("Mauvaise réponse")
+        if (user==reponse1)
+            console.log("Bonne réponse")
