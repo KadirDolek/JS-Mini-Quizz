@@ -86,4 +86,4 @@ alert("Bonjour, le test qui va suivre sera composé de 10 questions, vous pourre
             console.log("Mauvaise réponse!")}
     
 
-         console.log("Vous avez un total de "+ total + "Points")
+         alert("Vous avez un total de "+ total + "Points")
