@@ -21,10 +21,12 @@ let reponse8 =["Staline"]
 let reponse9 =["Russie"]
 let reponse10 =["Berlin"]
 
-
+let x = pr
 
 
 console.log("Bonjour, le test qui va suivre sera composé de 20 questions.")
+
+prompt(questions1)
 
 
 
