@@ -1,6 +1,4 @@
-h1{
-    background-color: rgba(140, 107, 67, 0.674);
-    color: rgb(215, 217, 219);
-    text-align: center;
-    border-radius: 4px;
+p{
+    color: rgb(193, 193, 97);
+    display: flex;
 }

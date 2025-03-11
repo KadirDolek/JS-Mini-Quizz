@@ -25,7 +25,7 @@ total = 0
 alert("Bonjour, le test qui va suivre sera composé de 10 questions, vous pourrez vérifier vos erreurs dans la console ensuite")
 
     var user = prompt(questions1)
-    while (user!=reponse1)
+        if (user!=reponse1)
             console.log("Mauvaise réponse!")
         if (user==reponse1)
             console.log("Bonne réponse!")
