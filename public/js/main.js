@@ -22,68 +22,68 @@ let reponse9 =["Russie"]
 let reponse10 =["Berlin"]
 total = 0
 
-console.log("Bonjour, le test qui va suivre sera composé de 20 questions.")
+alert("Bonjour, le test qui va suivre sera composé de 10 questions, vous pourrez vérifier vos erreurs dans la console ensuite")
 
     var user = prompt(questions1)
     while (user!=reponse1)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse1)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions2)
         if (user!=reponse2)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse2)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions3)
         if (user!=reponse3)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse3)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions4)
         if (user!=reponse4)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse4)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions5)
         if (user!=reponse5)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse5)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions6)
         if (user!=reponse6)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse6)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions7)
         if (user!=reponse7)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse7)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions8)
         if (user!=reponse8)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse8)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions9)
         if (user!=reponse9)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse9)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     var user = prompt(questions10)
         if (user!=reponse10)
-        console.log("Mauvaise réponse!")
+            console.log("Mauvaise réponse!")
         if (user==reponse10)
             console.log("Bonne réponse!")
-        total += 1
+            total += 1
     
 
-    total = (1*(user==reponse))
+         console.log("Vous avez un total de "+ total + "Points")
